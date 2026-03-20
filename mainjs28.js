@@ -14,12 +14,23 @@ function getMessage() {
 
 console.log("Start");
 
-getMessage()
-    .then((message) => {
+// async function
+async function fetchData() {
+    try {
+        const message = await getMessage(); 
         console.log(message);
-    })
-    .catch((error) => {
+    } catch (error) {
         console.log(error);
-    });
+    }
+}
+
+fetchData();
 
 console.log("End");
+
+
+function getMessage(){
+    return new Promise ((resolve,reject) =>{
+
+    })
+}
