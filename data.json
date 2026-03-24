@@ -1,0 +1,13 @@
+
+
+
+{
+    "id": 1,
+    "name": "anisa",
+    "city": "mugdisho",
+    "orders": [
+        { "id": 101, "product": "saako", "quantity": 6 },
+        { "id": 102, "product": "hijaab", "quantity": 6 }
+    ]
+}
+
